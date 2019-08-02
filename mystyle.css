@@ -1,0 +1,63 @@
+html {
+    scroll-behavior: smooth;
+    
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+    overflow-y: auto;
+    /* padding-top: 100px;  */
+
+}
+.page {
+    height: 1000px;
+}
+.page:before{
+    height: 110px;
+    content: "";
+    display:block;
+}
+a.navbar-brand, a.nav-item.nav-link {
+    /* font-family: "Avenir Next N",Avenir,futura,"Helvetica Neue","Lucida grande",sans-serif !important; */
+    font-weight: 1000 !important; 
+}
+.nav-link.active {
+    color: #77448b!important;
+}
+#main-navbar {
+    /* opacity: 0.3; */
+}
+/* pages */
+#about {
+    background-color: antiquewhite
+}
+#projects {
+    background-color: darksalmon;
+}
+#contact {
+    background-color: lightblue;
+}
+
+div > a.projects {
+    background-color:white;
+}
+#hi {
+    animation: typing 4s steps(13) infinite;
+    overflow: hidden;
+    white-space: nowrap;
+    font-family: consolas;
+    border-right: 4px solid black;
+    width: 13ch;
+}
+@keyframes typing {
+    0% {
+        width: 0ch;
+    }
+    100% {
+        width: 13ch;
+    }
+}
+
+#intro {
+    padding-top: 10px;
+}

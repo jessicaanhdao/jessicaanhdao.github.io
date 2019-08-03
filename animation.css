@@ -104,11 +104,12 @@
     transform: scale(1.2);
     border-radius: 0.25rem!important;
 
-    
+    cursor: url('photos/cursor.png');
   }
   .projects.square.effect6 a:hover .info {
     visibility: visible;
     opacity: 1;
+    cursor: url('photos/cursor.png');
   }
   
   .projects.square.effect6.from_top_and_bottom .info h3 {

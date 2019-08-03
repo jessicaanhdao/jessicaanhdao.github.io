@@ -4,10 +4,14 @@ html {
 }
 body {
     font-family: 'Montserrat', sans-serif;
+    /* font-family: 'Inconsolata', monospace; */
     position: relative;
     overflow-y: auto;
     /* padding-top: 100px;  */
-
+    color: #19283e;
+}
+.bg-light {
+    background-color: white !important; 
 }
 .page {
     height: 1000px;
@@ -19,25 +23,41 @@ body {
 }
 a.navbar-brand, a.nav-item.nav-link {
     /* font-family: "Avenir Next N",Avenir,futura,"Helvetica Neue","Lucida grande",sans-serif !important; */
-    font-weight: 1000 !important; 
+    /* font-weight: 1000 !important;  */
+    /* font-weight: bolder; */
 }
-.nav-link.active {
+.nav-link.active, .nav-link:hover {
     color: #77448b!important;
 }
 #main-navbar {
     /* opacity: 0.3; */
 }
 /* pages */
-#about {
+#aboutme {
     background-color: antiquewhite
 }
-#projects {
+#myprojects {
     background-color: darksalmon;
 }
 #contact {
-    background-color: lightblue;
+    background-color: #EB6E80;
 }
+#myskills {
+    background-color:#00c4cf;
+}
+#roboticsautonomy{
+    background-color:#c42033;
+    /* background-color: #fe4040; */
+    color: whitesmoke;
 
+}
+#roboticsautonomy h2 span {
+    background-color: white;
+    color:#c42033;
+}
+#roboticsautonomy p {
+    font-weight: lighter !important;
+}
 div > a.projects {
     background-color:white;
 }
@@ -60,4 +80,71 @@ div > a.projects {
 
 #intro {
     padding-top: 10px;
+}
+
+#skillgraph {
+    box-sizing: border-box;
+    box-shadow: 3px 3px 5px;
+    width: 100%;
+    /* border: solid #5B6DCD 10px; */
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 1);
+    padding-top: 30px;
+}
+.progress-bar {
+    background-color: #00c4cf;
+}
+
+#javainfo {
+    /* position: absolute; */
+    background-color: white;
+}
+
+.keyskills {
+    /* font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace; */
+    font-family: 'Inconsolata', monospace;
+
+}
+
+.section1, .section3{
+    position: relative;
+    text-align: center;
+    width: 3%;
+    
+}
+.section2{
+    width:94%;
+}
+h2 {
+    /* font-family: 'Inconsolata', monospace; */
+
+}
+.section3 p  {
+    /* position: static; */
+    font-family: 'Inconsolata', monospace;
+    font-size: 20px;
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    position: fixed;
+    top: 40%;
+    color: #19283e;
+}
+#socialicons{
+    
+    position: fixed;
+    top: 40%;
+}
+#socialicons a{
+    color: #19283e;
+}
+
+.btn-purple {
+    color: #77448b;
+    border-color: #77448b;
+}
+
+.btn-purple:hover {
+    color:white;
+    background-color: #77448b;
+    
 }

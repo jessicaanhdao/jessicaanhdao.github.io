@@ -15,29 +15,37 @@ body {
 }
 .page {
     height: 1000px;
+    overflow-y: auto;
 }
 .page:before{
     height: 110px;
     content: "";
     display:block;
 }
-a.navbar-brand, a.nav-item.nav-link {
-    /* font-family: "Avenir Next N",Avenir,futura,"Helvetica Neue","Lucida grande",sans-serif !important; */
+.navbar-brand, .nav-item{
+    font-family: 'Inconsolata', monospace;
     /* font-weight: 1000 !important;  */
     /* font-weight: bolder; */
 }
 .nav-link.active, .nav-link:hover {
-    color: #77448b!important;
+    color: #EB6E80!important;
 }
 #main-navbar {
     /* opacity: 0.3; */
 }
 /* pages */
 #aboutme {
-    background-color: antiquewhite
+    background-color: #EB6E80
+}
+#aboutme .btn:hover {
+    color:#EB6E80;
+}
+#aboutme .btn {
+    border-radius: 35px;
+    padding: 10px 16px;
 }
 #myprojects {
-    background-color: darksalmon;
+    background-color: lightyellow;
 }
 #contact {
     background-color: #EB6E80;
@@ -47,9 +55,10 @@ a.navbar-brand, a.nav-item.nav-link {
 }
 #roboticsautonomy{
     background-color:#c42033;
-    /* background-color: #fe4040; */
     color: whitesmoke;
-
+}
+#roboticsautonomy .btn:hover {
+    color:#c42033;
 }
 #roboticsautonomy h2 span {
     background-color: white;
@@ -57,6 +66,25 @@ a.navbar-brand, a.nav-item.nav-link {
 }
 #roboticsautonomy p {
     font-weight: lighter !important;
+}
+#androidproject {
+    /* background-color: #f7941d; */
+    /* background-color: #18d699; */
+    background-color:#00bff3;
+}
+#androidproject .btn:hover {
+    color:#00bff3 ;
+}
+
+#machinelearning {
+    background-color: rgb(55, 127, 249);
+}
+
+#javaprojects{
+    background-color: #f7941d;
+}
+#blockchain {
+    background-color: rgb(13, 13, 13);
 }
 div > a.projects {
     background-color:white;
@@ -106,20 +134,42 @@ div > a.projects {
 
 }
 
-.section1, .section3{
-    position: relative;
-    text-align: center;
-    width: 3%;
-    
+
+@media (max-width: 576px) {
+    .section1, .section3{
+        display: none;        
+    }
+    .section2{
+        width:100%;
+    }
 }
-.section2{
-    width:94%;
+@media (min-width: 768px) { 
+    .section1, .section3{
+        position: relative;
+        text-align: center;
+        width: 5%;
+        
+    }
+    .section2{
+        width:90%;
+    }
+}
+@media (min-width: 992px) { 
+    .section1, .section3{
+        position: relative;
+        text-align: center;
+        width: 3%;
+        
+    }
+    .section2{
+        width:94%;
+    }
 }
 h2 {
     /* font-family: 'Inconsolata', monospace; */
 
 }
-.section3 p  {
+.section3 a {
     /* position: static; */
     font-family: 'Inconsolata', monospace;
     font-size: 20px;
@@ -135,7 +185,10 @@ h2 {
     top: 40%;
 }
 #socialicons a{
-    color: #19283e;
+    color: #EB6E80;
+}
+#socialicons a:hover{
+    color:black !important;
 }
 
 .btn-purple {
@@ -147,4 +200,18 @@ h2 {
     color:white;
     background-color: #77448b;
     
+}
+
+.btn-pink {
+    color: #EB6E80;
+    border-color: #EB6E80;
+}
+
+.btn-pink:hover {
+    color:white;
+    background-color: #EB6E80;
+}
+
+.projects.square.effect6 a {
+    cursor: url('photos/cursor.png'),auto !important;
 }

@@ -75,21 +75,26 @@
                 <div class="row justify-content-center ">
                     <div class="col-sm-6 " >
                         <div class="row">
-                            <div id="intro">
+                            <div class="col-sm-12" id="intro">
                                 <h1 id="hi">Hi, i'm Anh. </h1>
                                 <br/>
-                                <p> People also call me Jessica. I know coding quite a bit and I like to challenge myself in different fields. I love to learn new things and explore new technologies. </p>
-                                <p style="color:whitesmoke"><strong>Now available for you</strong></p>
+                                <p  style="padding-bottom: 20px"> People also call me Jessica. I know coding quite a bit and I like to challenge myself in different fields. I love to learn new things and explore new technologies. </p>
+                                <a style="color:whitesmoke;" id="nowavail">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    Now available for you</a>
                             </div>
                        </div>
-                       <div class="row">
-                            <div class="col-sm-4">
+                       <div class="row" style="padding-top: 50px">
+                            <div class="col-sm-12 col-md-4 mb-2">
                                 <a role="button" class="btn btn-outline-light" href="#myprojects" >My work</a>
                             </div>
-                            <div class="col-sm-4">
+                            <div class="col-sm-12 col-md-4 mb-2">
                                 <a role="button" class="btn btn-outline-light" href="#myskills">My skills</a>
                             </div>
-                            <div class="col-sm-4">
+                            <div class="col-sm-12 col-md-4 mb-2">
                                 <a role="button" class="btn btn-outline-light" href="Anh Dao Resume 2019.pdf" target="_blank">My resume</a>
                             </div>
                        </div>
@@ -98,7 +103,7 @@
             </div>
             <div class="container-fluid page" id="myprojects">
                 <div class="row">
-                    <div class="col">
+                    <div class="col-sm-12 col-md-6">
                         <div class="projects square effect6">
                             <a href="#roboticsautonomy" >
                             <div class="img"> 
@@ -112,7 +117,7 @@
                             </a>
                         </div>
                     </div>
-                    <div class="col" >
+                    <div class="col-sm-12 col-md-6" >
                         <div class="projects square effect6">
                             <a href="#androidproject" >
                             <div class="img"> 
@@ -128,7 +133,7 @@
                     </div>
                 </div>
                 <div class="row">
-                        <div class="col">
+                        <div class="col-sm-12 col-md-6">
                             <div class="projects square effect6">
                                 <a href="#machinelearning" >
                                 <div class="img"> 
@@ -142,7 +147,7 @@
                                 </a>
                             </div>
                         </div>
-                        <div class="col" >
+                        <div class="col-sm-12 col-md-6" >
                             <div class="projects square effect6">
                                 <a href="#javaprojects" >
                                 <div class="img"> 
@@ -156,12 +161,12 @@
                             </div>
                         </div>
                     </div>
-                <div class="row">
-                    <div class="col">
+                <div class="row justify-content-center">
+                    <div class="col col-sm-12 col-md-6">
                         <div class="projects square effect6">
                             <a href="#blockchain" >
                             <div class="img"> 
-                                <img style="height: 200px;" src="photos/degram_cropped.jpg" class="figure-img img-fluid rounded" alt="Mobile Vision Logo">
+                                <img src="photos/degram_cropped.jpg" class="figure-img img-fluid rounded" alt="Mobile Vision Logo">
                             </div>
                             <div class="info">
                                 <h1>BLOCKCHAIN</h1>
@@ -265,7 +270,6 @@
                     </div>
 
                     <div class="col-sm-6"> 
-                        <div class="row">
                             <p class="story">This battle was not between my team and other people's team but it was between <strong>me and the 150-pound robot</strong>.</p>
                             <p> This was my senior project as well as a competition, NASA Robotics Mining Competition (RMC). <span> 09/2018 - 04/2019</span> Believe it or not, my project was <i>cancelled twice</i> ༼ つ ಥ_ಥ ༽つ</p>
                             <p>The first time was when my former 4 teammates decided to withdraw from this project after the first term ended, and the second time was when NASA decided to cancel the competition themselves. But that did not change my missions </p>
@@ -275,7 +279,6 @@
                             <p>More on <a href="https://www.nasa.gov/offices/education/centers/kennedy/technology/nasarmc.html" style="color:whitesmoke; border-bottom: 1px dotted;" target="_blank">NASA RMC </a>
                             <br>
                             More on <a href="https://wpi.meritpages.com/stories/Ho-Chi-Minh-Resident-Part-of-Group-to-Present-at-WPI-Project-Presentation-Day-2019-/13920637" style="color:whitesmoke; border-bottom: 1px dotted;" target="_blank"> Project Presentation Day </a></p>
-                        </div>
                             
                     </div>
 
@@ -357,92 +360,193 @@
             <div class="container-fluid page" id="machinelearning">
                 <div class="row">
                     <div class="col-sm-6 mx-auto">
-                        <div class="row">
-                                <div class="col mx-auto">
-                            <h1>Siri as a Personal Food Recommender <i class="fas fa-drumstick-bite"></i></h1>
-                            <blockquote class="blockquote text-center">
-                            <footer class="blockquote-footer">A Machine Learning Project</footer>
-                            </blockquote>
-                            </div>
-
-                        </div>
-                        <div class="row">
-                            <p class="story"> What if Siri doesn't just listen and "Google" the questions but actually communicate like a friend and understand what we like - have the ability to learn. At the first stage, I wanted Siri to be a learning agent that can give personalized restaurant recommendations ('cuz I love food) based on user's search history.</p>
-                            <p>
-                            <u>Methodology:</u>
-                            <br>
-                            <span>&#8226;</span> Used Restaurants with consumer ratings on different features <a style="color:white; border-bottom: 1px dotted;" href="https://www.kaggle.com/uciml/restaurant-data-with-consumer-ratings/">dataset</a> to replicate user's preference
-                            <br>
-                            <span>&#8226;</span> Ran 3 supervised ML algorithms on the cleaned data
-                            <br>
-                            <span>&#8226;</span> Compared and contrasted results to see which algorithm performs better
-                            <br>
-                            <br>
-                            <u>Data set:</u> Over 10,000 data points (from 2,300 restaurants and 130 user profiles).
-                        </div>
-                        <div class="row">
-                            <div class="col">
-                            <u>Algorithms:</u>
-                            <br>
-                            <span>&#8226;</span> Support Vector Machine
-                            <br>
-                            <span>&#8226;</span> Random Forest
-                            <br>
-                            <span>&#8226;</span> Naive Bayes
-                            </div>
-                            <div class="col">
-                            <u>Performance Metrics:</u>
-                            <br>
-                            <span>&#8226;</span> F1 Score
-                            <br>
-                            <span>&#8226;</span> Learning Curve
-                            </div>  
-                        </div>
-                        <div class="row">
-                            <p>
-                            <br>
-                            <u>Results:</u>
-                            <br>
-                            <span>&#8226;</span> RF had the best and NB had the worst performance
-                            <br>
-                            (More on my report)</p>
-                        </div>
-                        <div class="row" style="padding-top:10px; padding-bottom: 10px;">
-                                <div class="col">
-                                    <a role="button" class="btn btn-outline-light" href="https://github.com/jessicaanhdao/Artificial-Intelligence/blob/master/finalproject.ipynb" target="_blank"><i class="fab fa-github "></i> Source code</a>
-                                </div>
-                                <div class="col">
-                                        <a role="button" class="btn btn-outline-light" href="ML Siri Final Report.pdf" target="_blank"><i class="far fa-file"></i> Final Report</a>
-                                </div>
-                        </div>
-                        <div class="row">
-                            <div class="col">
-                                <a class="badge badge-light">Python</a>
-                            </div>
-                            <div class="col">
-                                <a class="badge badge-light">Matplot</a>
-                            </div>
-                            <div class="col">
-                                <a class="badge badge-light">Sklearn</a>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col">
-                                <a class="badge badge-light" href="https://en.wikipedia.org/wiki/Support-vector_machine">Support Vector Machine</a>
-                            </div>
-                            <div class="col">
-                                <a class="badge badge-light" href="https://en.wikipedia.org/wiki/Random_forest">Random Forest</a>
-                            </div>
-                            <div class="col">
-                                <a class="badge badge-light" href="https://en.wikipedia.org/wiki/Naive_Bayes_classifier">Naived Bayes</a>
-                            </div>
-                        </div>
-                               
+                        <h1>Siri as a Personal Food Recommender <i class="fas fa-drumstick-bite"></i></h1>
+                        <blockquote class="blockquote text-center">
+                        <footer class="blockquote-footer">A Machine Learning Project</footer>
+                        </blockquote>
                     </div>
                 </div>
+                <div class="row">
+                    <div class="col-sm-6 mx-auto">
+                        <p class="story"> What if Siri doesn't just listen and "Google" the questions but actually communicate like a friend and understand what we like - have the ability to learn. At the first stage, I wanted Siri to be a learning agent that can give personalized restaurant recommendations ('cuz I love food) based on user's search history.</p>
+                        <p>
+                        <u>Methodology:</u>
+                        <br>
+                        <span>&#8226;</span> Used Restaurants with consumer ratings on different features <a style="color:white; border-bottom: 1px dotted;" href="https://www.kaggle.com/uciml/restaurant-data-with-consumer-ratings/">dataset</a> to replicate user's preference
+                        <br>
+                        <span>&#8226;</span> Ran 3 supervised ML algorithms on the cleaned data
+                        <br>
+                        <span>&#8226;</span> Compared and contrasted results to see which algorithm performs better
+                        <br>
+                        <br>
+                        <u>Data set:</u> Over 10,000 data points (from 2,300 restaurants and 130 user profiles).
+                    </p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <u>Algorithms:</u>
+                        <br>
+                        <span>&#8226;</span> Support Vector Machine
+                        <br>
+                        <span>&#8226;</span> Random Forest
+                        <br>
+                        <span>&#8226;</span> Naive Bayes
+                    </div>
+                    <div class="col">
+                        <u>Performance Metrics:</u>
+                        <br>
+                        <span>&#8226;</span> F1 Score
+                        <br>
+                        <span>&#8226;</span> Learning Curve
+                    </div>  
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <p>
+                        <br>
+                        <u>Results:</u>
+                        <br>
+                        <span>&#8226;</span> RF had the best and NB had the worst performance
+                        <br>
+                        (More on my report)</p>
+                    </div>
+                </div>
+                <div class="row" style="padding-top:10px; padding-bottom: 10px;">
+                        <div class="col">
+                            <a role="button" class="btn btn-outline-light" href="https://github.com/jessicaanhdao/Artificial-Intelligence/blob/master/finalproject.ipynb" target="_blank"><i class="fab fa-github "></i> Source code</a>
+                        </div>
+                        <div class="col">
+                                <a role="button" class="btn btn-outline-light" href="ML Siri Final Report.pdf" target="_blank"><i class="far fa-file"></i> Final Report</a>
+                        </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <a class="badge badge-light">Python</a>
+                    </div>
+                    <div class="col">
+                        <a class="badge badge-light">Matplot</a>
+                    </div>
+                    <div class="col">
+                        <a class="badge badge-light">Sklearn</a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <a class="badge badge-light" href="https://en.wikipedia.org/wiki/Support-vector_machine">Support Vector Machine</a>
+                    </div>
+                    <div class="col">
+                        <a class="badge badge-light" href="https://en.wikipedia.org/wiki/Random_forest">Random Forest</a>
+                    </div>
+                    <div class="col">
+                        <a class="badge badge-light" href="https://en.wikipedia.org/wiki/Naive_Bayes_classifier">Naived Bayes</a>
+                    </div>
+                </div>                               
             </div>
             <div class="container-fluid page" id="javaprojects">
-
+                <div class="row justify-content-center ">
+                    <div class="col-sm-12 col-md-6  text-center">
+                        <div class="otherprojects row align-items-center">
+                            <div class="col-sm-10 mx-auto">
+                                <div class="row ">
+                                    <div class="col">
+                                        <h1>The Better IMDB</h1>
+                                        <blockquote class="blockquote text-center">
+                                                <footer class="blockquote-footer">Data-Driven Movie Search Application</footer>
+                                            </blockquote>
+                                    </div>
+                                </div>
+                                <div class="row" style="padding-top:10px; padding-bottom: 10px;">
+                                        <div class="col">
+                                            <a role="button" class="btn btn-outline-light" href="https://github.com/jessicaanhdao/TMDBApp" target="_blank"><i class="fab fa-github "></i> Source code</a>
+                                        </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col">
+                                        <a class="badge badge-light">Java</a>
+                                    </div>
+                                    <div class="col">
+                                        <a class="badge badge-light">Kaggle</a>
+                                    </div>
+                                    <div class="col">
+                                        <a class="badge badge-light">MySQL</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>    
+                    <div class="col-sm-12 col-md-6 text-center ">
+                        <div class="otherprojects row align-items-center">
+                            <div class="col-sm-10 mx-auto">
+                                <div class="row ">
+                                    <div class="col">
+                                        <h1>Gettysburg Game</h1>
+                                        <blockquote class="blockquote text-center">
+                                                <footer class="blockquote-footer">Gettysburg Game Using Test-Driven Development Method</footer>
+                                            </blockquote>
+                                    </div>
+                                </div>
+                                <div class="row" style="padding-top:10px; padding-bottom: 10px;">
+                                        <div class="col">
+                                            <a role="button" class="btn btn-outline-light" href="https://github.com/jessicaanhdao/GettysburgGame" target="_blank"><i class="fab fa-github "></i> Source code</a>
+                                        </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col">
+                                        <a class="badge badge-light">Java</a>
+                                    </div>
+                                    <div class="col">
+                                        <a class="badge badge-light" href="https://en.wikipedia.org/wiki/Test-driven_development" target="_blank">TTD</a>
+                                    </div>
+                                    <div class="col">
+                                        <a class="badge badge-light" href="https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm" target="_blank">Dijktra's Algorithm</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 text-center ">
+                        <div class="otherprojects row align-items-center">
+                            <div class="col-sm-10 mx-auto">
+                                <div class="row ">
+                                    <div class="col">
+                                        <h1>Hospital Kiosk Application</h1>
+                                        <blockquote class="blockquote text-center">
+                                                <footer class="blockquote-footer">A Path-Finding Project that Used Scrum Project Managment</footer>
+                                            </blockquote>
+                                    </div>
+                                </div>
+                                <div class="row" style="padding-top:10px; padding-bottom: 10px;">
+                                        <div class="col">
+                                            <a role="button" class="btn btn-outline-light" href="https://github.com/jessicaanhdao/GettysburgGame" target="_blank"><i class="fab fa-github "></i> Source code</a>
+                                        </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col">
+                                        <a class="badge badge-light">Java / JavaFX</a>
+                                    </div>
+                                    <div class="col">
+                                        <a class="badge badge-light" href="https://en.wikipedia.org/wiki/Test-driven_development" target="_blank">MySQL</a>
+                                    </div>
+                                    <div class="col">
+                                        <a class="badge badge-light" href="https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm" target="_blank">A* Algorithm</a>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col">
+                                        <a class="badge badge-light">Agile</a>
+                                    </div>
+                                    <div class="col">
+                                        <a class="badge badge-light" href="https://en.wikipedia.org/wiki/Test-driven_development" target="_blank">Scrum</a>
+                                    </div>
+                                    <div class="col">
+                                        <a class="badge badge-light" href="" target="_blank"></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>        
+                </div>
             </div>
             <div class="container-fluid page" id="blockchain">
                 <div class="row">
@@ -451,18 +555,17 @@
                         <h5>Decentralized Photo-Sharing Social Network</h5>
                         <p style="font-size: 40px">C O M I N G  S O O N</p>
                     </div>
-                                           
                 </div>
                 <div class="row">
                     <div class="col-sm-6 mx-auto">
                         <div class="row justify-content-center">
-                                <p class="story">A interesting project that I'm currently working on</p>
+                                <p class="story" style="">A interesting project that I'm currently working on</p>
                         </div>
-                        <div class="row justify-content-center">
-                            <div class="col-sm-3">
+                        <div class="row justify-content-center text-center">
+                            <div class="col mx-auto">
                                 <a class="badge badge-light" href="">ReactJS</a>
                             </div>
-                            <div class="col-sm-3">
+                            <div class="col">
                                 <a class="badge badge-light" href="">Blockchain</a>
                             </div>
                         </div>
@@ -481,11 +584,11 @@
                 </div>
                 <div class="row">
                     <div class="col">
-                        <p>Despite being introduced and familiar with multiple language, my most proficient and go-to language is <font color="white">Java</font>. I have multiple projects coded in Java and OOP.</p>
-                        <p><font color="white">C++</font> is like a silbling to Java due to their similarity in concepts and greatness in usage. However, you don't usually fall in love with your lover's sibling. I did not choose it because of its syntax. In addition, I have to admit that I hate the pointer and malloc/free concept. Java has made me used to being carefee about memory.</p>
-                        <p>I programmed a whole robot and did some simple ML work in <font color="white">Python</font> so I can say that I'm very familiar with Python and its syntax. 
-                            In college, Python is taught in "Programming for non-Computer Science (CS) majors". CS majors are assumed to know Python by default due to its extremely simple syntax. But that's why I dislike it.  </p>
-                        <p>Front-end <font color="white">Web development</font> is something that I always have a crush on. Art is something that I found really relaxing and enjoyable doing including designing front-end of a website. But if I have to choose, I still prefer writing algorithms because I like challenges.</p>    
+                        <p>Despite being introduced and familiar with multiple language, my most proficient and go-to language is <font color="white">Java</font>. I have multiple projects coded in Java and OOP.
+                        </p>
+                        <p>Front-end <font color="white">Web development</font> is something that I always have a crush on. Art is something that I found really relaxing and enjoyable doing including designing front-end of a website. But if I have to choose, I still prefer writing algorithms because I like challenges.
+                        But check out my <a href="https://jessicaanhdao.portfoliobox.net/" style="color: #19283e; border-bottom: 1px dotted;" target="_blank">art portfolio</a> tho </p>  
+                        <p><font color="white">Machine Learning</font> is something I just started in 2018 but I immediatly had strong passion about. I want to continue learning ML and more advanced concepts in my free time to eventually be able to work in this field.</p>
                     </div>
                     <div class="col">
                         <div id="skillgraph">
@@ -546,7 +649,7 @@
                                 </div>
                                 <div class="col-sm-10">
                                     <div class="progress" style="height:20px">
-                                        <div class="progress-bar" role="progressbar" style="width: 90%;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">Advanced</div>
+                                        <div class="progress-bar" role="progressbar" style="width: 70%;" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">Intermediate</div>
                                     </div>
                                 </div>
                             </div>
@@ -556,7 +659,7 @@
                                 </div>
                                 <div class="col-sm-10">
                                     <div class="progress" style="height:20px">
-                                        <div class="progress-bar" role="progressbar" style="width: 90%;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">Advanced</div>
+                                        <div class="progress-bar" role="progressbar" style="width: 70%;" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">Intermediate</div>
                                     </div>
                                 </div>
                             </div>
@@ -605,7 +708,7 @@
                 </div>
             </div>
             <div class="container-fluid page" id="contact">
-                <div class="row" style="text-align:;">
+                <div class="row">
                     <div class="col-sm-6 mx-auto">
                         <h1>Are you convinced?</h1>
                         <p class="story">I'm fresh out of college, and currently looking for a full-time opportunity as a Software Engineer.

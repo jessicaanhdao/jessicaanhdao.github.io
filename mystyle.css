@@ -228,6 +228,15 @@ h2 {
     background-color: #EB6E80;
 }
 
+.btn-plaiv {
+    color: #00c4cf;
+    border-color: #00c4cf;
+}
+
+.btn-plaiv:hover {
+    color:white;
+    background-color: #00c4cf;
+}
 .projects.square.effect6 a {
     cursor: url('photos/cursor.png'),auto !important;
 }

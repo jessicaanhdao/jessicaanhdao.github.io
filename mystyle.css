@@ -241,6 +241,11 @@ h2 {
     color:white;
     background-color: #00c4cf;
 }
+.btn-dcasso {
+  border-radius: 35px;
+  color:white;
+  background-color: #3700ff;
+}
 .projects.square.effect6 a {
     cursor: url('photos/cursor.png'),auto !important;
 }

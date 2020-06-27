@@ -40,6 +40,7 @@
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                             <a class="dropdown-item" href="#myprojects">ALL PROJECTS</a>
                             <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#dcasso">React / Angular Projects</a>
                             <a class="dropdown-item" href="#roboticsautonomy">Robotics Autonomy</a>
                             <a class="dropdown-item" href="#androidproject">Android Project</a>
                             <a class="dropdown-item" href="#machinelearning">Machine Learning</a>
@@ -78,21 +79,27 @@
                             <div class="col-sm-12" id="intro">
                                 <h1 id="hi">Hi, i'm Anh. </h1>
                                 <br/>
-                                <p  style="padding-bottom: 20px"> People also call me Jessica. I know coding quite a bit and I like to challenge myself in different fields. I love to learn new things and explore new technologies. </p>
-                                <a style="color:whitesmoke;" id="nowavail">
+                                <p  style="padding-bottom: 5px"> People also call me Jessica. I know coding quite a bit and I like to challenge myself in different fields. I love to learn new things and explore new technologies. </p>
+                                <!-- <a style="color:whitesmoke;" id="nowavail">
                                     <span></span>
                                     <span></span>
                                     <span></span>
                                     <span></span>
-                                    Now available for you</a>
+                                    Now available for you</a> -->
 
                             </div>
                        </div>
                        <div class="row" style="padding-top: 50px">
                             <div class="col">
+                              <a role="button" class="btn btn-outline-light" href="https://dcasso.app/"
+                              target="_blank" style="margin-bottom: 5px;">
+                                  Try out <img src="./photos/Dcasso word.png" style="height :30px">
+                                  - A Fun Doodling Game
+                                </a>
+                                <br/>
                                 <a role="button" class="btn btn-outline-light" href="https://plaiv.com/"
                                 target="_blank"  id="plaiv" >
-                                    Try out <img src="./photos/plaiv_logo.png" style="height :30px"> - A Secure Digital Planner</a>
+                                    Try out <img src="./photos/plaiv_logo_color.png" style="height :30px"> - A Secure Digital Planner</a>
                             </div>
                         </div>
 
@@ -241,15 +248,29 @@
               </div>
               <div class="row" style="padding-top:20px; padding-bottom: 20px;">
                 <div class="col-6 mx-auto">
-                  <video class="video-fluid d-block w-100" autoplay loop muted title="Dcasso 2019 Recap">
+                  <video class="video-fluid d-block w-100" autoplay loop title="Dcasso 2019 Recap">
                     <source src="photos/dcasso 2019 recap.mp4" type="video/mp4" />
                   </video>
                 </div>
                 <div class="col-6 mx-auto text-justify">
-                    <a href="https://dcasso.app/" target="_blank" style="color: #19283e; border-bottom: 1px dotted #19283e">Try out Dcasso</a>
+                  <a role="button" class="btn btn-dcasso" href="https://dcasso.app/"
+                  target="_blank"  id="plaiv" >
+                      Try out <img src="./photos/Dcasso word.png" style="height :30px">
+                    </a>
+                    <!-- <br/> -->
+                      <a role="button" class="btn btn-dcasso" href="https://dcasso-duel.app/"
+                  target="_blank"  id="plaiv" >
+                      Try out <img src="./photos/DcassoDuel word.png" style="height :30px">
+                    </a>
+                    
+                      <!-- <a href="https://dcasso.app/" target="_blank" style="color: #19283e; border-bottom: 1px dotted #19283e">Try out Dcasso</a>
                    <br/>
-                    <a href="https://dcasso-duel.app/" target="_blank" style="color: #19283e; border-bottom: 1px dotted #19283e">Try out Dcasso Duel</a>
-
+                    <a href="https://dcasso-duel.app/" target="_blank" style="color: #19283e; border-bottom: 1px dotted #19283e">Try out Dcasso Duel</a> -->
+                    <p>These are one of my first React web apps for pure entainment purposes. </p>
+                      <p>Dcasso is a game-social doolding app for single player to draw (based on a prompt in a limited time) and share with everyone else. Dcasso Duel is a Dcasso but for 2 people to play against each other. Yet, the game was widely loved and played.</p>
+                    <p>In 2 months, Dcasso had 190+ users and 700+ sketches.</p>
+                    <p>The front-end was created with ReactJS and back-end was created with NodeJS</p>
+                    <p>I'm currently working on creating Dcasso Mobile with React Native.</p>
                     <!-- <a role="button" id="" class="btn btn-plaiv" href="https://github.com/jessicaanhdao/PLAiV" target="_blank"><i class="fab fa-github "></i> Source code</a> -->
                 </div>
               </div>
@@ -890,17 +911,17 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
     <script>
-        $( document ).ready(function() {
-            $('[data-toggle="tooltip"]').tooltip({'placement': 'right'});
-        });
-        $('#plaiv').hover(
-            function(){
-            $(this).find('img').attr('src','./photos/plaiv_logo_color.png')
-            },
-            function(){
-            $(this).find('img').attr('src','./photos/plaiv_logo.png')
-            }
-)
+//         $( document ).ready(function() {
+//             $('[data-toggle="tooltip"]').tooltip({'placement': 'right'});
+//         });
+//         $('#plaiv').hover(
+//             function(){
+//             $(this).find('img').attr('src','./photos/plaiv_logo_color.png')
+//             },
+//             function(){
+//             $(this).find('img').attr('src','./photos/plaiv_logo.png')
+//             }
+// )
     </script>
 </body> 
 
